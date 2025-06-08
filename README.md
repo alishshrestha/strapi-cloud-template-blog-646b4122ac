@@ -40,6 +40,10 @@ Strapi gives you many possible deployment options for your project including [St
 yarn strapi deploy
 ```
 
+## Enabling Content Type Builder in Production
+
+This template enables the Content Type Builder plugin even when running in production. You can add or update content types through the admin panel without switching environments. To disable this behaviour, remove the plugin configuration from `config/plugins.js`.
+
 ## 📚 Learn more
 
 - [Resource center](https://strapi.io/resource-center) - Strapi resource center.
